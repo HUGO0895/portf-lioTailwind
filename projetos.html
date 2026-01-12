@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <title>Tailwind Portfolio</title>
+    <title>Projetos</title>
 </head>
 
 <body class="bg-gray-300">
@@ -18,7 +18,7 @@
             
             <div class="flex gap-2">
                 <div class="hover:bg-gray-400/30 transition duration-500 rounded-lg group relative flex flex-col items-center p-2">
-                    <a href="#">
+                    <a href="index.html">
                         <svg xmlns="http://www.w3.org/2000/svg" class="size-8 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="hover:bg-gray-400/30 transition duration-500 rounded-lg group relative flex flex-col items-center p-2">
-                    <a href="#projetos">
+                    <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-gray-700">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
                         </svg>
@@ -53,7 +53,31 @@
         </nav>
     </header>
 
-    <main class="px-6 md:px-35">
+    <main class="px-6 lg:px-100">
+          <section class="px-10 py-10 md:px-15 md:py-15">
+          <div class="grid grid-cols-3 gap-4">
+           <div class="col-span-3"><h1 class=" md:text-3xl font-bold text-1xl text-white bg-blue-500 rounded-full px-5 py-1 inline-block hover:scale-110 transition duration-400 ">Análise de dados</h1></div>
+           <div class="col-span-3 lg:col-span-2 overflow-hidden rounded-xl shadow-2xl"> <img src="video_sprint_3.gif" alt="Censo" class="w-full object-cover"></div>
+           
+<div class="col-span-3 lg:col-span-1 space-y-4"> <p class="font-bold text-gray-700 leading-relaxed">Neste projeto, atuei na linha de frente técnica e estratégica. Como Product Owner (PO), fui responsável pela visão geral do produto e por parte elaboração da documentação técnica. No desenvolvimento, executei todo o processo de ETL, utilizando a biblioteca Pandas para o tratamento, limpeza e manipulação de grandes volumes de dados. No back-end, utilizei Flask para estruturar a lógica do projeto e garantir a integração eficiente entre os dados processados e a entrega final.</div></p>
+             </div> 
+          </section>  
+            
+               <section class="px-10 py-10">
+          <div class="grid grid-cols-3  gap-4">
+           <div class="col-span-3  "><h1 class=" md:text-3xl font-bold text-1xl text-white bg-blue-500 rounded-full px-5 py-1 inline-block hover:scale-110 transition duration-400 ">Gerenciador de Senhas</h1></div>
+           <div class="col-span-3 lg:col-span-2 overflow-hidden rounded-xl shadow-2xl"> <img src="Vault-ezgif.com-video-to-gif-converter.gif" alt="Censo" class="w-full object-cover"></div>
+           <div class="col-span-3 lg:col-span-1 space-y-4">
+        <p class="font-bold text-gray-700 leading-relaxed">
+            Realizei a modelagem do banco de dados, garantindo a integridade e o relacionamento dos dados. No back-end (Flask), implementei camadas rigorosas de segurança através de algoritmos de criptografia e hash para proteção de informações sensíveis. No front-end, desenvolvi funcionalidades avançadas de filtragem utilizando JavaScript.
+        </p>
+    </div>
+           
+
+          </section>  
+            
+
+
     </main>
     <footer id="projetos" class="px-6 md:px-35 pb-20 mt-20">
          <p class="text-center pb-10 font-bold text-gray-600 uppercase text-xs tracking-widest">© 2026 Hugo Leonardo</p>
